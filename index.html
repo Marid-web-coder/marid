@@ -1,0 +1,938 @@
+﻿<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-dim":"#0b1325","surface":"#0b1325","on-error-container":"#ffdad6","inverse-on-surface":"#283043","surface-variant":"#2d3448","on-surface":"#dbe2fb","background":"#0b1325","on-secondary-fixed-variant":"#41474e","on-background":"#dbe2fb","on-secondary-fixed":"#161c22","on-primary-fixed-variant":"#653e00","surface-container-lowest":"#060e1f","tertiary-container":"#2bca62","surface-container-low":"#131b2e","on-secondary-container":"#afb6bd","inverse-surface":"#dbe2fb","primary-fixed-dim":"#ffb95f","secondary-fixed":"#dde3eb","on-tertiary-fixed":"#002109","primary-container":"#f59e0b","primary-fixed":"#ffddb8","tertiary-fixed":"#6bff8f","tertiary-fixed-dim":"#4ae176","secondary":"#c1c7cf","surface-bright":"#31394d","outline":"#a08e7a","on-error":"#690005","inverse-primary":"#855300","on-primary-fixed":"#2a1700","primary":"#ffc174","tertiary":"#51e77b","surface-tint":"#ffb95f","on-tertiary-fixed-variant":"#005321","surface-container-highest":"#2d3448","on-primary":"#472a00","on-surface-variant":"#d8c3ad","on-secondary":"#2b3137","secondary-container":"#41474e","surface-container-high":"#222a3d","on-tertiary":"#003915","on-primary-container":"#613b00","secondary-fixed-dim":"#c1c7cf","on-tertiary-container":"#004f20","outline-variant":"#534434","error-container":"#93000a","error":"#ffb4ab","surface-container":"#181f32"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin":"3rem","space-md":"1rem","space-sm":"0.5rem","space-xl":"2.5rem","gutter":"1.5rem","margin-mobile":"1.25rem","space-xs":"0.25rem","space-lg":"1.5rem","gutter-mobile":"1rem"},"fontFamily":{"headline-lg-mobile":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"body-md":["Inter"],"headline-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-lg":["Inter"],"label-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-xl-mobile":["Plus Jakarta Sans"],"body-sm":["Inter"]},"fontSize":{"headline-lg-mobile":["26px",{"lineHeight":"34px","fontWeight":"600"}],"headline-xl":["48px",{"lineHeight":"56px","fontWeight":"700"}],"title-md":["18px",{"lineHeight":"26px","fontWeight":"500"}],"body-md":["14px",{"lineHeight":"22px","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"26px","fontWeight":"400"}],"label-lg":["14px",{"lineHeight":"20px","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","fontWeight":"600"}],"headline-lg":["36px",{"lineHeight":"44px","fontWeight":"600"}],"label-sm":["10px",{"lineHeight":"14px","fontWeight":"700"}],"headline-xl-mobile":["32px",{"lineHeight":"40px","fontWeight":"700"}],"body-sm":["12px",{"lineHeight":"18px","fontWeight":"400"}]}}}}</script></head><body class="bg-background font-body-md text-on-background min-h-screen flex flex-col antialiased selection:bg-primary selection:text-on-primary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_20px_40px_-15px_rgba(0,0,0,0.7)]"><div class="h-20 w-full px-margin-mobile lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="Sialkot Motors Emblem Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UqqMVSyFuymjIAA8eV3VSpVWTFjTZpEhvjuqlZ6x8gM1cIrut9GkDYJAhdPA07Wd-GCpMcr-Y1wRfu8HhRsUV1Azh2uHAXdkbsFTvQ67chYcZXDwrySMuvspfwA55PRkt4YEvXuKtt1q7-QBzqSFjuKy23kaYtyiImmANiQj6BLtDDK2_P0uzOlUYE9zyXCKrpNmbuIYRaOimNjaVmjyJXXzlJlci87JcA3topCeVbHMshDagL3Vqheg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface uppercase">Sialkot<span class="text-primary"> Motors</span></span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Prestige Automotive PK</span></div></a></div><nav class="hidden xl:flex items-center gap-space-sm" data-active-classes="bg-primary-container text-on-primary-container rounded-lg font-label-lg text-label-lg px-space-md py-space-sm"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high px-space-md py-space-sm rounded-lg transition-all" data-path="home" href="#">Home</a><a aria-current="page" class="transition-all bg-primary-container text-on-primary-container rounded-lg font-label-lg text-label-lg px-space-md py-space-sm" data-path="buy" href="#">Buy a Car</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high px-space-md py-space-sm rounded-lg transition-all" data-path="sell" href="#">Sell Your Car</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high px-space-md py-space-sm rounded-lg transition-all" data-path="featured-cars" href="#">Featured Cars</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high px-space-md py-space-sm rounded-lg transition-all" data-path="about" href="#">About Us</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high px-space-md py-space-sm rounded-lg transition-all" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-sm lg:gap-space-md"><button aria-label="Quick Search" class="flex items-center justify-center w-10 h-10 rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-bright transition-all"><span class="material-symbols-outlined text-[20px]">search</span></button><a aria-label="GitHub Repository" class="flex items-center justify-center w-10 h-10 rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-bright transition-all" href="https://github.com/Marid-web-coder/marid" target="_blank" rel="noopener noreferrer" title="View on GitHub"><svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg></a>
+<a aria-label="Wishlist" class="relative flex items-center justify-center w-10 h-10 rounded-full bg-surface-container-high text-on-surface-variant hover:text-on-surface hover:bg-surface-bright transition-all" data-path="favorites" href="#"><span class="material-symbols-outlined text-[20px]">favorite</span><span class="absolute -top-1 -right-1 flex items-center justify-center min-w-[18px] h-[18px] px-1 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm">3</span></a><a class="flex items-center gap-space-sm pl-space-xs pr-space-sm py-space-xs rounded-full bg-surface-container-low hover:bg-surface-container-high transition-all" data-path="dashboard" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkraECXM_TcI4eyUNZLOua1I8Cr8y0iPG-HYfuHIMSmT9EHKzzGyr__LQeyArCg8mcOeNc3APwFZG3zTTxVsvxK2IS4n0LJ4n0Y3Xwd4E30V6KCQW2RUjtK-Yphq-ch3aiBw_kgWXuv3zy3M6aUwLNSsPX8r8ALJQUtUr6ClfDxz_xXBRCpEb8oV8Af00dKfHJaYXVNA80pSikI1BV0vBx9bsV7SMo82bFTUXIYrhUaFpAElUdDCw"/><span class="hidden md:inline-block font-label-md text-label-md text-on-surface">Account</span></a><a class="hidden sm:inline-flex items-center justify-center px-space-lg py-space-sm bg-primary-container text-on-primary-container font-label-lg text-label-lg rounded-lg shadow-[0_0_20px_rgba(245,158,11,0.25)] hover:shadow-[0_0_24px_rgba(245,158,11,0.45)] hover:bg-primary transition-all" data-path="sell" href="#">Sell Your Car</a></div></div></header><main class="w-full pt-20 bg-background flex-1"><div class="flex flex-col w-full">
+<!-- SEARCH BAR & TOP CONTROL STRIP -->
+<section class="w-full px-margin-mobile lg:px-margin pt-space-lg pb-space-md">
+<!-- Breadcrumbs -->
+<nav class="flex items-center gap-space-xs font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+<a class="hover:text-primary transition-colors" href="#">Home</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Inventory</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-on-surface font-label-md text-label-md">All Cars in Sialkot &amp; Punjab</span>
+</nav>
+<!-- Page Header & Global Search Bar -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md mb-space-lg">
+<div>
+<div class="inline-flex items-center gap-2 px-space-md py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm uppercase tracking-widest mb-space-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-ping"></span>
+          Certified Sialkot Showroom Network
+        </div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Used &amp; New Cars for Sale in Sialkot</h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Verified Japanese &amp; European imports, biometric-clear local assemblies across Punjab.</p>
+</div>
+<div class="flex items-center gap-space-sm self-start lg:self-auto">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Live Stock Status:</span>
+<span class="inline-flex items-center gap-1.5 px-space-md py-1 rounded-full bg-surface-container-highest text-tertiary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">verified</span> 1,524 Verified Units
+        </span>
+</div>
+</div>
+<!-- Live Unified Multi-Selector Control Panel -->
+<div class="w-full bg-surface-container-low rounded-2xl p-space-md shadow-xl backdrop-blur-xl">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md items-center">
+<!-- Keyword Input -->
+<div class="md:col-span-5 relative">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[22px]">search</span>
+<input class="w-full h-12 pl-12 pr-4 bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant/60 rounded-xl font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all" id="searchInput" placeholder="Search by make, model, trim (e.g. Fortuner Legender, Altis Grande)..." type="text"/>
+</div>
+<!-- Location Dropdown Selector -->
+<div class="md:col-span-3 relative">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-primary text-[20px]">location_on</span>
+<select class="w-full h-12 pl-11 pr-8 bg-surface-container-lowest text-on-surface rounded-xl font-body-md text-body-md appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all" id="locationSelect">
+<option value="sialkot">Sialkot (All Hubs &amp; Cantt)</option>
+<option value="lahore">Lahore Showrooms</option>
+<option value="gujranwala">Gujranwala &amp; GT Road</option>
+<option value="islamabad">Islamabad / Rawalpindi</option>
+</select>
+<span class="material-symbols-outlined absolute right-space-md top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none text-[18px]">expand_more</span>
+</div>
+<!-- Quick Price Preset Dropdown -->
+<div class="md:col-span-2 relative">
+<span class="material-symbols-outlined absolute left-space-md top-1/2 -translate-y-1/2 text-on-surface-variant text-[20px]">payments</span>
+<select class="w-full h-12 pl-11 pr-8 bg-surface-container-lowest text-on-surface rounded-xl font-body-md text-body-md appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all">
+<option>All Price Tiers</option>
+<option>Under PKR 20 Lac</option>
+<option>PKR 20 - 40 Lac</option>
+<option>PKR 40 - 70 Lac</option>
+<option>PKR 70L - 1.5 Cr</option>
+<option>PKR 1.5 Crore +</option>
+</select>
+<span class="material-symbols-outlined absolute right-space-md top-1/2 -translate-y-1/2 text-on-surface-variant pointer-events-none text-[18px]">expand_more</span>
+</div>
+<!-- Actions -->
+<div class="md:col-span-2 flex items-center gap-space-xs">
+<button class="flex-1 h-12 px-space-md bg-primary-container hover:bg-primary text-on-primary-container font-label-lg text-label-lg rounded-xl transition-all flex items-center justify-center gap-1 shadow-[0_0_15px_rgba(245,158,11,0.25)]">
+<span>Find Cars</span>
+</button>
+<button class="h-12 w-12 flex items-center justify-center rounded-xl bg-surface-container hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface transition-all" id="resetFiltersTop" title="Reset Filters">
+<span class="material-symbols-outlined text-[20px]">restart_alt</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- MAIN VIEWPORT: 2-COLUMN SIDEBAR & INVENTORY GRID -->
+<section class="w-full px-margin-mobile lg:px-margin pb-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- LEFT FILTER SIDEBAR (Desktop 320px Sticky equivalent: 4 cols) -->
+<aside class="lg:col-span-4 xl:col-span-3 flex flex-col gap-space-md lg:sticky lg:top-24">
+<!-- Active Filter Pills Card -->
+<div class="bg-surface-container-low rounded-2xl p-space-md">
+<div class="flex items-center justify-between pb-space-sm mb-space-sm border-b border-surface-variant/30">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">tune</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Filters</span>
+</div>
+<button class="font-label-sm text-label-sm text-primary hover:underline" id="clearAllPills">Clear All (3)</button>
+</div>
+<!-- Tags Container -->
+<div class="flex flex-wrap gap-space-xs">
+<span class="inline-flex items-center gap-1 px- space-sm py-1 pl-2.5 pr-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md">
+              Toyota
+              <button class="hover:text-error transition-colors p-0.5"><span class="material-symbols-outlined text-[14px]">close</span></button>
+</span>
+<span class="inline-flex items-center gap-1 px-space-sm py-1 pl-2.5 pr-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md">
+              Under 70 Lac
+              <button class="hover:text-error transition-colors p-0.5"><span class="material-symbols-outlined text-[14px]">close</span></button>
+</span>
+<span class="inline-flex items-center gap-1 px-space-sm py-1 pl-2.5 pr-1.5 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md">
+              Automatic
+              <button class="hover:text-error transition-colors p-0.5"><span class="material-symbols-outlined text-[14px]">close</span></button>
+</span>
+</div>
+</div>
+<!-- Filter Accordion Group -->
+<div class="bg-surface-container-low rounded-2xl p-space-md flex flex-col gap-space-lg">
+<!-- Price Range Slider & Presets -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold">Price Range</label>
+<span class="font-label-sm text-label-sm text-primary" id="priceDisplay">PKR 40L - 1.55 Cr</span>
+</div>
+<input class="w-full accent-primary bg-surface-container-highest h-2 rounded-lg cursor-pointer" id="priceSlider" max="250" min="15" type="range" value="155"/>
+<div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>PKR 15 Lac</span>
+<span>PKR 2.5 Crore+</span>
+</div>
+<!-- Quick Chips -->
+<div class="grid grid-cols-2 gap-1.5 pt-1">
+<button class="px-2 py-1 text-left rounded-md bg-surface-container-high hover:bg-primary/20 text-on-surface-variant hover:text-primary font-body-sm text-body-sm transition-all">&lt; 20 Lac</button>
+<button class="px-2 py-1 text-left rounded-md bg-surface-container-high hover:bg-primary/20 text-on-surface-variant hover:text-primary font-body-sm text-body-sm transition-all">20 - 40 Lac</button>
+<button class="px-2 py-1 text-left rounded-md bg-primary/20 text-primary font-body-sm text-body-sm transition-all font-semibold">40 - 70 Lac</button>
+<button class="px-2 py-1 text-left rounded-md bg-surface-container-high hover:bg-primary/20 text-on-surface-variant hover:text-primary font-body-sm text-body-sm transition-all">70 Lac - 1.5 Cr</button>
+</div>
+</div>
+<!-- Make & Model Multi-checkbox -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between mb-1">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold">Make &amp; Brand</label>
+<span class="font-label-sm text-label-sm text-on-surface-variant">7 Brands</span>
+</div>
+<div class="flex flex-col gap-1.5 max-h-48 overflow-y-auto pr-1">
+<label class="flex items-center justify-between p-1.5 rounded-lg hover:bg-surface-container cursor-pointer transition-colors">
+<span class="flex items-center gap-2">
+<input checked="" class="w-4 h-4 rounded bg-surface-container-highest accent-primary text-surface-container-lowest" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface">Toyota</span>
+</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant">420</span>
+</label>
+<label class="flex items-center justify-between p-1.5 rounded-lg hover:bg-surface-container cursor-pointer transition-colors">
+<span class="flex items-center gap-2">
+<input class="w-4 h-4 rounded bg-surface-container-highest accent-primary text-surface-container-lowest" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface">Honda</span>
+</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant">310</span>
+</label>
+<label class="flex items-center justify-between p-1.5 rounded-lg hover:bg-surface-container cursor-pointer transition-colors">
+<span class="flex items-center gap-2">
+<input class="w-4 h-4 rounded bg-surface-container-highest accent-primary text-surface-container-lowest" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface">Suzuki</span>
+</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant">280</span>
+</label>
+<label class="flex items-center justify-between p-1.5 rounded-lg hover:bg-surface-container cursor-pointer transition-colors">
+<span class="flex items-center gap-2">
+<input class="w-4 h-4 rounded bg-surface-container-highest accent-primary text-surface-container-lowest" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface">KIA</span>
+</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant">140</span>
+</label>
+<label class="flex items-center justify-between p-1.5 rounded-lg hover:bg-surface-container cursor-pointer transition-colors">
+<span class="flex items-center gap-2">
+<input class="w-4 h-4 rounded bg-surface-container-highest accent-primary text-surface-container-lowest" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface">Hyundai</span>
+</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant">95</span>
+</label>
+<label class="flex items-center justify-between p-1.5 rounded-lg hover:bg-surface-container cursor-pointer transition-colors">
+<span class="flex items-center gap-2">
+<input class="w-4 h-4 rounded bg-surface-container-highest accent-primary text-surface-container-lowest" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface">MG Motors</span>
+</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant">60</span>
+</label>
+<label class="flex items-center justify-between p-1.5 rounded-lg hover:bg-surface-container cursor-pointer transition-colors">
+<span class="flex items-center gap-2">
+<input class="w-4 h-4 rounded bg-surface-container-highest accent-primary text-surface-container-lowest" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface">Audi</span>
+</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant">35</span>
+</label>
+</div>
+</div>
+<!-- Model Year Range -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold">Model Year</label>
+<div class="grid grid-cols-2 gap-space-sm">
+<select class="h-10 px-2.5 bg-surface-container-highest text-on-surface rounded-lg font-body-sm text-body-sm focus:outline-none">
+<option>2015</option>
+<option>2018</option>
+<option selected="">2020</option>
+<option>2022</option>
+</select>
+<select class="h-10 px-2.5 bg-surface-container-highest text-on-surface rounded-lg font-body-sm text-body-sm focus:outline-none">
+<option>2022</option>
+<option>2023</option>
+<option selected="">2024</option>
+</select>
+</div>
+</div>
+<!-- Condition Segmented Control -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold">Vehicle Condition</label>
+<div class="flex flex-wrap gap-1.5">
+<button class="px-2.5 py-1 rounded-md bg-primary-container text-on-primary-container font-label-md text-label-md">All</button>
+<button class="px-2.5 py-1 rounded-md bg-surface-container-high hover:bg-surface-bright text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all">Verified (Inspected)</button>
+<button class="px-2.5 py-1 rounded-md bg-surface-container-high hover:bg-surface-bright text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all">Unregistered</button>
+<button class="px-2.5 py-1 rounded-md bg-surface-container-high hover:bg-surface-bright text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all">Used</button>
+</div>
+</div>
+<!-- Transmission & Fuel Type -->
+<div class="flex flex-col gap-space-sm">
+<div>
+<label class="font-label-lg text-label-lg text-on-surface font-semibold mb-2 block">Transmission</label>
+<div class="grid grid-cols-2 gap-2">
+<label class="flex items-center gap-2 p-2 rounded-lg bg-surface-container-highest/60 cursor-pointer">
+<input checked="" class="rounded accent-primary" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">Automatic (720)</span>
+</label>
+<label class="flex items-center gap-2 p-2 rounded-lg bg-surface-container-highest/60 cursor-pointer">
+<input class="rounded accent-primary" type="checkbox"/>
+<span class="font-body-sm text-body-sm text-on-surface">Manual (410)</span>
+</label>
+</div>
+</div>
+<div>
+<label class="font-label-lg text-label-lg text-on-surface font-semibold mb-2 block">Fuel Type</label>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-highest text-on-surface font-label-md text-label-md flex items-center gap-1">Petrol (840)</span>
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-high text-on-surface-variant font-label-md text-label-md flex items-center gap-1">Hybrid (210)</span>
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-high text-on-surface-variant font-label-md text-label-md flex items-center gap-1">Diesel (130)</span>
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-high text-on-surface-variant font-label-md text-label-md flex items-center gap-1">Electric (35)</span>
+</div>
+</div>
+</div>
+<!-- Registration City -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface font-semibold">Registered City</label>
+<div class="space-y-1">
+<label class="flex items-center justify-between text-on-surface-variant hover:text-on-surface cursor-pointer text-body-sm font-body-sm py-0.5">
+<span class="flex items-center gap-2"><input checked="" class="accent-primary rounded" type="checkbox"/> Sialkot</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant/70">512</span>
+</label>
+<label class="flex items-center justify-between text-on-surface-variant hover:text-on-surface cursor-pointer text-body-sm font-body-sm py-0.5">
+<span class="flex items-center gap-2"><input class="accent-primary rounded" type="checkbox"/> Lahore</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant/70">640</span>
+</label>
+<label class="flex items-center justify-between text-on-surface-variant hover:text-on-surface cursor-pointer text-body-sm font-body-sm py-0.5">
+<span class="flex items-center gap-2"><input class="accent-primary rounded" type="checkbox"/> Islamabad</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant/70">210</span>
+</label>
+</div>
+</div>
+<!-- Seller Verification Status -->
+<div class="p-space-sm rounded-xl bg-surface-container-lowest flex flex-col gap-1.5">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Verification Tier</span>
+<label class="flex items-center gap-2 text-on-surface font-body-sm text-body-sm cursor-pointer">
+<input checked="" class="accent-primary" name="seller_tier" type="radio"/> Sialkot Certified (Auction &amp; Bio)
+            </label>
+<label class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm cursor-pointer">
+<input class="accent-primary" name="seller_tier" type="radio"/> Verified Dealers Only
+            </label>
+</div>
+</div>
+</aside>
+<!-- RIGHT CONTENT INVENTORY AREA (8 cols desktop) -->
+<main class="lg:col-span-8 xl:col-span-9 flex flex-col gap-space-lg">
+<!-- Results Bar: Counts, View switcher & Sorting -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-sm border-b border-surface-variant/20">
+<div class="flex items-center gap-space-sm">
+<span class="font-headline-sm text-headline-sm text-on-surface">Showing 1 - 9 of 1,524</span>
+<span class="font-label-md text-label-md text-primary bg-primary/10 px-2 py-0.5 rounded-full">Sialkot Region Active</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<!-- Sort By Select -->
+<div class="flex items-center gap-2">
+<span class="font-body-sm text-body-sm text-on-surface-variant hidden md:inline">Sort:</span>
+<select class="h-9 px-3 bg-surface-container text-on-surface rounded-lg font-label-md text-label-md focus:outline-none cursor-pointer">
+<option selected="">Featured First</option>
+<option>Price: Low to High</option>
+<option>Price: High to Low</option>
+<option>Newest Added</option>
+<option>Lowest Mileage</option>
+</select>
+</div>
+<!-- View toggles -->
+<div class="flex items-center bg-surface-container rounded-lg p-0.5">
+<button class="w-8 h-8 flex items-center justify-center rounded bg-surface-container-highest text-primary" title="Grid View">
+<span class="material-symbols-outlined text-[18px]">grid_view</span>
+</button>
+<button class="w-8 h-8 flex items-center justify-center rounded text-on-surface-variant hover:text-on-surface" title="List View">
+<span class="material-symbols-outlined text-[18px]">view_list</span>
+</button>
+</div>
+</div>
+</div>
+<!-- CAR CARDS GRID (3 Columns responsive) -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-gutter" id="carInventoryGrid">
+<!-- 1. Toyota Fortuner Legender -->
+<article class="bg-surface-container-low rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.8)] group relative">
+<div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+<img alt="Toyota Fortuner Legender 2.8 Diesel SUV Sialkot" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSOeQTC6cfLZwBD3kBLsPMNhArRxLfTjggcQbjw_ZDhPqtuABHROQHNcLJB2zGChWjVd7VdkPDQ4FHgUPYdae7xsdjnloE0cRFOEB5vSV9tuQrJ6yJ0FfN3PmeXWTbc5q006jSrLQ6W6IzPYXkXo_9Uzw2uLl8F5aJbF6rovXUXoULIQsRe2T_U-2lm5cLGs4Mrtp4k3PzatHnYilxtZ0Z7WdCsyQvlJY8WPnZLRWFnnOkdwZnI-8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/80 via-transparent to-transparent"></div>
+<!-- Floating Badges Top -->
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-tertiary font-label-sm text-label-sm flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[14px]">verified</span> Verified Dealer
+                </span>
+<span class="px-2 py-0.5 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold">Featured</span>
+</div>
+<!-- Quick action toggles -->
+<div class="absolute top-3 right-3 flex items-center gap-1.5">
+<button aria-label="Favorite vehicle" class="w-8 h-8 rounded-full bg-surface-dim/80 backdrop-blur-md text-on-surface hover:text-error transition-colors flex items-center justify-center favorite-btn">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<!-- Location overlay pill bottom -->
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm bg-surface-dim/80 backdrop-blur-md px-2.5 py-1 rounded-md">
+<span class="material-symbols-outlined text-primary text-[14px]">pin_drop</span>
+<span>Sialkot Cantt</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-baseline justify-between mb-1">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">2023 Edition</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">PKR 1.55 Cr</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-primary transition-colors line-clamp-1">
+                  Toyota Fortuner Legender 2.8
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">4x4 Sigma 4 Diesel Automatic Push Start</p>
+</div>
+<!-- Spec Grid Monospace -->
+<div class="grid grid-cols-3 gap-1 py-space-xs px-space-sm rounded-xl bg-surface-container font-body-sm text-body-sm text-on-surface">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Mileage</span>
+<span class="font-medium">18,200 km</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Fuel</span>
+<span class="font-medium">Diesel</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Trans</span>
+<span class="font-medium">Auto</span>
+</div>
+</div>
+<!-- Action CTAs -->
+<div class="flex items-center justify-between gap-space-xs pt-1">
+<label class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface cursor-pointer">
+<input class="accent-primary rounded" type="checkbox"/> Compare
+                </label>
+<div class="flex items-center gap-1.5">
+<a class="w-9 h-9 rounded-lg bg-tertiary text-on-tertiary flex items-center justify-center hover:opacity-90 transition-all" href="https://wa.me/923008612345" target="_blank" title="Instant WhatsApp">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+<button class="px-3.5 py-1.5 rounded-lg bg-primary-container hover:bg-primary text-on-primary-container font-label-md text-label-md font-semibold transition-all">
+                    Details
+                  </button>
+</div>
+</div>
+</div>
+</article>
+<!-- 2. Toyota Corolla Altis Grande -->
+<article class="bg-surface-container-low rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.8)] group relative">
+<div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+<img alt="Toyota Corolla Altis Grande Pearl White Sialkot" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqDIWbi66E6rD2rMIHymGv51Q6BokJnj9mJl2WF0iVTMNCwAbgba7Wf5d3q4S9HUu6aJ0pumnXqUuehkTcHEaLCJchWEQoLDmN0plONByUWyuJ4Y8iJod7ittZpB1Ea4aFgR9JErmJxdoadfxqbgkZ35Z7QWsEcPTPiG1e_S-yHx1dshe3ZIQvkwq-ET9wSmGyHPlZCBP6qzp1uvgIbZ5Xcmk6CBK95zPyRoT3HwfDFg_2xdZsi-0"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/80 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-0.5 rounded-full bg-tertiary-container/90 text-on-tertiary-container font-label-sm text-label-sm font-bold flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[14px]">star</span> Certified 9.2/10
+                </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface font-label-sm text-label-sm">Biometric Clear</span>
+</div>
+<div class="absolute top-3 right-3 flex items-center gap-1.5">
+<button aria-label="Favorite vehicle" class="w-8 h-8 rounded-full bg-surface-dim/80 backdrop-blur-md text-on-surface hover:text-error transition-colors flex items-center justify-center favorite-btn">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm bg-surface-dim/80 backdrop-blur-md px-2.5 py-1 rounded-md">
+<span class="material-symbols-outlined text-primary text-[14px]">pin_drop</span>
+<span>Paris Road, Sialkot</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-baseline justify-between mb-1">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">2022 Spec</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">PKR 62.5 Lac</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-primary transition-colors line-clamp-1">
+                  Corolla Altis Grande 1.8
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sunroof, Paddle Shifters, Pearl White</p>
+</div>
+<div class="grid grid-cols-3 gap-1 py-space-xs px-space-sm rounded-xl bg-surface-container font-body-sm text-body-sm text-on-surface">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Mileage</span>
+<span class="font-medium">28,000 km</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Fuel</span>
+<span class="font-medium">Petrol</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Trans</span>
+<span class="font-medium">CVT Auto</span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs pt-1">
+<label class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface cursor-pointer">
+<input class="accent-primary rounded" type="checkbox"/> Compare
+                </label>
+<div class="flex items-center gap-1.5">
+<a class="w-9 h-9 rounded-lg bg-tertiary text-on-tertiary flex items-center justify-center hover:opacity-90 transition-all" href="https://wa.me/923008612345" target="_blank" title="Instant WhatsApp">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+<button class="px-3.5 py-1.5 rounded-lg bg-primary-container hover:bg-primary text-on-primary-container font-label-md text-label-md font-semibold transition-all">
+                    Details
+                  </button>
+</div>
+</div>
+</div>
+</article>
+<!-- 3. Honda Civic RS Turbo -->
+<article class="bg-surface-container-low rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.8)] group relative">
+<div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Meteoroid Gray Honda Civic RS Turbo 1.5 VTEC 2022 driving past luxury modern glass architecture during evening dusk in Sialkot, cinematic reflective asphalt lighting, sleek sports sedan silhouette" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJHxMA3aXyeJXOmQ20kov7ZkqcOZbONXfz6idxYK_n6p_q3hZ90jCIGQ4sWurSxcjDoMVOPYo6JnW78MEKG4ZtIXSLGHFBinGSvDykoK21vCLtM_jVo4S_BShwsHugSqXj-31geI0KLOQ6QJEDxEM_fXYqfWncaeBWcSKkMSS8R28yb8iV0hBhqO9HB2InefGBN-iUV-QV-H5xoB3rTAMZXgGFT_Cuwf3MyJdSAopqokc_w3TiHg8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/80 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-tertiary font-label-sm text-label-sm flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[14px]">verified</span> Verified Dealer
+                </span>
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold">Price Drop</span>
+</div>
+<div class="absolute top-3 right-3 flex items-center gap-1.5">
+<button aria-label="Favorite vehicle" class="w-8 h-8 rounded-full bg-surface-dim/80 backdrop-blur-md text-on-surface hover:text-error transition-colors flex items-center justify-center favorite-btn">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm bg-surface-dim/80 backdrop-blur-md px-2.5 py-1 rounded-md">
+<span class="material-symbols-outlined text-primary text-[14px]">pin_drop</span>
+<span>Defence Road, Sialkot</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-baseline justify-between mb-1">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">2022 Turbo</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">PKR 76.0 Lac</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-primary transition-colors line-clamp-1">
+                  Honda Civic RS 1.5 VTEC
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Honda Sensing, Full Black Interior, Red Accent</p>
+</div>
+<div class="grid grid-cols-3 gap-1 py-space-xs px-space-sm rounded-xl bg-surface-container font-body-sm text-body-sm text-on-surface">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Mileage</span>
+<span class="font-medium">21,500 km</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Fuel</span>
+<span class="font-medium">Petrol</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Trans</span>
+<span class="font-medium">LL-CVT</span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs pt-1">
+<label class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface cursor-pointer">
+<input class="accent-primary rounded" type="checkbox"/> Compare
+                </label>
+<div class="flex items-center gap-1.5">
+<a class="w-9 h-9 rounded-lg bg-tertiary text-on-tertiary flex items-center justify-center hover:opacity-90 transition-all" href="https://wa.me/923008612345" target="_blank" title="Instant WhatsApp">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+<button class="px-3.5 py-1.5 rounded-lg bg-primary-container hover:bg-primary text-on-primary-container font-label-md text-label-md font-semibold transition-all">
+                    Details
+                  </button>
+</div>
+</div>
+</div>
+</article>
+<!-- 4. KIA Sportage AWD -->
+<article class="bg-surface-container-low rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.8)] group relative">
+<div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Panthera Metal Kia Sportage AWD crossover parked in an ultra-modern corporate automobile forecourt in Punjab, soft golden twilight reflection on gloss metallic paint, clean composition" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtS45yde_syX8Q5T8o9uojRzXn3Jm4gWbsBJgleh6Ejm9X89z0dvds7IpPXrGpUK4CbE8y0bSFFCmUnglgTzAupJNdlQbpVkA6YEMQZmwLwvwWec8DD6YcWwHst3wVZrzIXYw5d7nB6LSUJDCgyeuKO8VW_XUc_MMf69uCnjT8bLBuP4Hma4JcUpbdz79lWGUShp18aW_Lez6Na7GNKUfKitA1gNay09LLP7AuGGkWj3CZFQU1SnA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/80 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-tertiary font-label-sm text-label-sm flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[14px]">verified</span> Inspected
+                </span>
+</div>
+<div class="absolute top-3 right-3 flex items-center gap-1.5">
+<button aria-label="Favorite vehicle" class="w-8 h-8 rounded-full bg-surface-dim/80 backdrop-blur-md text-on-surface hover:text-error transition-colors flex items-center justify-center favorite-btn">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm bg-surface-dim/80 backdrop-blur-md px-2.5 py-1 rounded-md">
+<span class="material-symbols-outlined text-primary text-[14px]">pin_drop</span>
+<span>Sambrial, Sialkot</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-baseline justify-between mb-1">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">2021 Model</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">PKR 74.5 Lac</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-primary transition-colors line-clamp-1">
+                  KIA Sportage AWD 2.0
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">All-Wheel Drive, Panoramic Sunroof, Leather</p>
+</div>
+<div class="grid grid-cols-3 gap-1 py-space-xs px-space-sm rounded-xl bg-surface-container font-body-sm text-body-sm text-on-surface">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Mileage</span>
+<span class="font-medium">38,000 km</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Fuel</span>
+<span class="font-medium">Petrol</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Trans</span>
+<span class="font-medium">6-Spd Auto</span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs pt-1">
+<label class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface cursor-pointer">
+<input class="accent-primary rounded" type="checkbox"/> Compare
+                </label>
+<div class="flex items-center gap-1.5">
+<a class="w-9 h-9 rounded-lg bg-tertiary text-on-tertiary flex items-center justify-center hover:opacity-90 transition-all" href="https://wa.me/923008612345" target="_blank" title="Instant WhatsApp">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+<button class="px-3.5 py-1.5 rounded-lg bg-primary-container hover:bg-primary text-on-primary-container font-label-md text-label-md font-semibold transition-all">
+                    Details
+                  </button>
+</div>
+</div>
+</div>
+</article>
+<!-- 5. Suzuki Swift GLX CVT -->
+<article class="bg-surface-container-low rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.8)] group relative">
+<div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Sporty Phoenix Red Suzuki Swift GLX hatchback 2023 studio shot on glossy dark slate showroom surface with studio LED overhead ring light reflections" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIShddR_oFBOqPPp9GN2WanEO1yILh6IjZwr1e5mlAbBt08Z87q-zFN6zNx5ow87aZU-0tVZZyUhFKdp72JZBHSQmRsYuK3ZuiNVby4y22NHoS15MAODDHfbGkUpARV5H7A8ujeWd9LYKXkATxpDKQ8MW9374BnVH_FtlKGrtKyo-wDRh_uAQsyyu-f-3kWRwUMHWpKkDJBS03DcaOVH_PBv4UPZibpTWi37WIOgWFPEK-sLiUpHo"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/80 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[14px]">speed</span> First Owner
+                </span>
+</div>
+<div class="absolute top-3 right-3 flex items-center gap-1.5">
+<button aria-label="Favorite vehicle" class="w-8 h-8 rounded-full bg-surface-dim/80 backdrop-blur-md text-on-surface hover:text-error transition-colors flex items-center justify-center favorite-btn">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm bg-surface-dim/80 backdrop-blur-md px-2.5 py-1 rounded-md">
+<span class="material-symbols-outlined text-primary text-[14px]">pin_drop</span>
+<span>Daska, Sialkot</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-baseline justify-between mb-1">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">2023 GLX</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">PKR 43.5 Lac</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-primary transition-colors line-clamp-1">
+                  Suzuki Swift GLX CVT
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">LED Projector lamps, Smart Key, Cruise Control</p>
+</div>
+<div class="grid grid-cols-3 gap-1 py-space-xs px-space-sm rounded-xl bg-surface-container font-body-sm text-body-sm text-on-surface">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Mileage</span>
+<span class="font-medium">14,000 km</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Fuel</span>
+<span class="font-medium">Petrol</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Trans</span>
+<span class="font-medium">CVT Auto</span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs pt-1">
+<label class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface cursor-pointer">
+<input class="accent-primary rounded" type="checkbox"/> Compare
+                </label>
+<div class="flex items-center gap-1.5">
+<a class="w-9 h-9 rounded-lg bg-tertiary text-on-tertiary flex items-center justify-center hover:opacity-90 transition-all" href="https://wa.me/923008612345" target="_blank" title="Instant WhatsApp">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+<button class="px-3.5 py-1.5 rounded-lg bg-primary-container hover:bg-primary text-on-primary-container font-label-md text-label-md font-semibold transition-all">
+                    Details
+                  </button>
+</div>
+</div>
+</div>
+</article>
+<!-- 6. Hyundai Tucson AWD -->
+<article class="bg-surface-container-low rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.8)] group relative">
+<div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Polar White Hyundai Tucson AWD SUV parked in front of high-end glass architectural building in Sialkot, twilight reflections on wet modern driveway" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvnTPSiL9AoJ8q5-g5MZx_3Gyuj1BdGbwbyLQPL54Xsr6D12iQZKPTw8hcjogGpwOhk_Do6ytloHrpTFRtwzyVvN9m3Fz0Ek2VOwZ1klynbMWR0F_Rhe4KBpBkU-4lZiA7KslzGZQhM2_32riNZ2WitDKQJlA0qBikjkVl-FTklhc98DEV2_-VZGHMkBI89xxhaHBckm1cJL6hJYZPno_iR8z9uzLG3teIHY-OV-dolHJEr2vVfYg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/80 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-tertiary font-label-sm text-label-sm flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[14px]">verified</span> Dealer Stock
+                </span>
+</div>
+<div class="absolute top-3 right-3 flex items-center gap-1.5">
+<button aria-label="Favorite vehicle" class="w-8 h-8 rounded-full bg-surface-dim/80 backdrop-blur-md text-on-surface hover:text-error transition-colors flex items-center justify-center favorite-btn">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm bg-surface-dim/80 backdrop-blur-md px-2.5 py-1 rounded-md">
+<span class="material-symbols-outlined text-primary text-[14px]">pin_drop</span>
+<span>Sialkot Cantt</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-baseline justify-between mb-1">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">2022 AWD</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">PKR 81.0 Lac</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-primary transition-colors line-clamp-1">
+                  Hyundai Tucson AWD
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">HTRAC All-Wheel Drive, Wireless Charger</p>
+</div>
+<div class="grid grid-cols-3 gap-1 py-space-xs px-space-sm rounded-xl bg-surface-container font-body-sm text-body-sm text-on-surface">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Mileage</span>
+<span class="font-medium">26,000 km</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Fuel</span>
+<span class="font-medium">Petrol</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Trans</span>
+<span class="font-medium">Automatic</span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs pt-1">
+<label class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface cursor-pointer">
+<input class="accent-primary rounded" type="checkbox"/> Compare
+                </label>
+<div class="flex items-center gap-1.5">
+<a class="w-9 h-9 rounded-lg bg-tertiary text-on-tertiary flex items-center justify-center hover:opacity-90 transition-all" href="https://wa.me/923008612345" target="_blank" title="Instant WhatsApp">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+<button class="px-3.5 py-1.5 rounded-lg bg-primary-container hover:bg-primary text-on-primary-container font-label-md text-label-md font-semibold transition-all">
+                    Details
+                  </button>
+</div>
+</div>
+</div>
+</article>
+<!-- 7. Honda City 1.5L Aspire -->
+<article class="bg-surface-container-low rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.8)] group relative">
+<div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Urban Titanium Honda City 1.5 Aspire sedan 2021 parked on clean paved road with contemporary dealership glass front facade, sharp side perspective" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPMF4q7JHx_VHtAqBi0-ayz0GDodOrvjsyvC6iqg_XIjwxuM718-B_il7u-iKiVyX4-zMP1axvuFB-_p5pmtp1Gep95BsDNoICM5R7-4Z0RAuLnxfko65NoF2NnN5-ssyN7FD4z6oS-dEcwWvPvG-NGyu6tbwx8Mrcg_bqgWOyYTN3hMz1Wi3X0JRsLwfGkCAtk4ywR5syIIsPMnaVGxnmreRIV-yrMhyreNYW0q6K8iQOIHHLDbE"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/80 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-tertiary font-label-sm text-label-sm flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[14px]">verified</span> Bumper to Bumper Original
+                </span>
+</div>
+<div class="absolute top-3 right-3 flex items-center gap-1.5">
+<button aria-label="Favorite vehicle" class="w-8 h-8 rounded-full bg-surface-dim/80 backdrop-blur-md text-on-surface hover:text-error transition-colors flex items-center justify-center favorite-btn">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm bg-surface-dim/80 backdrop-blur-md px-2.5 py-1 rounded-md">
+<span class="material-symbols-outlined text-primary text-[14px]">pin_drop</span>
+<span>Kashmir Road, Sialkot</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-baseline justify-between mb-1">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">2021 Aspire</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">PKR 44.0 Lac</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-primary transition-colors line-clamp-1">
+                  Honda City 1.5L Aspire
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Top-of-line Aspire trim, Navigation, Alloy Wheels</p>
+</div>
+<div class="grid grid-cols-3 gap-1 py-space-xs px-space-sm rounded-xl bg-surface-container font-body-sm text-body-sm text-on-surface">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Mileage</span>
+<span class="font-medium">35,000 km</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Fuel</span>
+<span class="font-medium">Petrol</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Trans</span>
+<span class="font-medium">CVT Auto</span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs pt-1">
+<label class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface cursor-pointer">
+<input class="accent-primary rounded" type="checkbox"/> Compare
+                </label>
+<div class="flex items-center gap-1.5">
+<a class="w-9 h-9 rounded-lg bg-tertiary text-on-tertiary flex items-center justify-center hover:opacity-90 transition-all" href="https://wa.me/923008612345" target="_blank" title="Instant WhatsApp">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+<button class="px-3.5 py-1.5 rounded-lg bg-primary-container hover:bg-primary text-on-primary-container font-label-md text-label-md font-semibold transition-all">
+                    Details
+                  </button>
+</div>
+</div>
+</div>
+</article>
+<!-- 8. Toyota Yaris ATIV X -->
+<article class="bg-surface-container-low rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.8)] group relative">
+<div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Attitude Black Toyota Yaris ATIV X 1.5 CVT sedan parked gracefully in a luxury automobile center courtyard with warm twilight backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8AU9Xjkiu1_AlwmnfbtA8z0rR8LrNHCkxtoJPHcGNViJ5bcmByy-xlggu6qxBCvHHhtagZGUmedUgj3wku9WKruVEkR5VQ6sdVNhmrqguzv9KS9qJLjxe0XIPCGI0MbP2qfpX5MGXYeMLnBIJqqguaZfsU_zA9ws_WCOpsYCPRmhHUv9gY2Og7NYpuyYO-H0iNkg3r5Gfmb5dTUtoq-AxErf4urhMfhsE8oK18AD-H4Xhsaaiaas"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/80 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-tertiary font-label-sm text-label-sm flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[14px]">verified</span> Punjab Number
+                </span>
+</div>
+<div class="absolute top-3 right-3 flex items-center gap-1.5">
+<button aria-label="Favorite vehicle" class="w-8 h-8 rounded-full bg-surface-dim/80 backdrop-blur-md text-on-surface hover:text-error transition-colors flex items-center justify-center favorite-btn">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm bg-surface-dim/80 backdrop-blur-md px-2.5 py-1 rounded-md">
+<span class="material-symbols-outlined text-primary text-[14px]">pin_drop</span>
+<span>Ugoki, Sialkot</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-baseline justify-between mb-1">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">2022 ATIV X</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">PKR 48.0 Lac</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-primary transition-colors line-clamp-1">
+                  Toyota Yaris ATIV X 1.5
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Top spec ATIV X, Optitron Meter, Climate Control</p>
+</div>
+<div class="grid grid-cols-3 gap-1 py-space-xs px-space-sm rounded-xl bg-surface-container font-body-sm text-body-sm text-on-surface">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Mileage</span>
+<span class="font-medium">29,000 km</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Fuel</span>
+<span class="font-medium">Petrol</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Trans</span>
+<span class="font-medium">CVT Auto</span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs pt-1">
+<label class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface cursor-pointer">
+<input class="accent-primary rounded" type="checkbox"/> Compare
+                </label>
+<div class="flex items-center gap-1.5">
+<a class="w-9 h-9 rounded-lg bg-tertiary text-on-tertiary flex items-center justify-center hover:opacity-90 transition-all" href="https://wa.me/923008612345" target="_blank" title="Instant WhatsApp">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+<button class="px-3.5 py-1.5 rounded-lg bg-primary-container hover:bg-primary text-on-primary-container font-label-md text-label-md font-semibold transition-all">
+                    Details
+                  </button>
+</div>
+</div>
+</div>
+</article>
+<!-- 9. Audi A6 S-Line -->
+<article class="bg-surface-container-low rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.8)] group relative">
+<div class="relative w-full aspect-[16/10] bg-surface-container-lowest overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Mythos Black Audi A6 S-Line executive sedan 2020 parked with Matrix LED headlights glowing on a wet obsidian asphalt surface in front of modern Sialkot glass automotive showroom" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkWLtT-PqSL-0SxkEZbniFcPDh_BvDOjjv0GnSeB5O1rhqMt0bqYVnV9917r9GREu6MHKnD6d5pBAgHP9FDbUzKpSLdKGR4K-BD4ma4byF_dvCGK1V3oRl0QZ99OiMWSl8GA-p0edlYsp_02wZvFIj8u4vxEsCDe9EQlGzoKIIyQbTwJTH7ryRAamY9Nvqg6opueZeDSnzhAvPhY3qwyjkmwXh-Y4E7TMFx5TAQR8E8pdHVtbd7Z0"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/80 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3 flex items-center gap-1.5">
+<span class="px-2.5 py-0.5 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold flex items-center gap-1 shadow-md">
+<span class="material-symbols-outlined text-[14px]">verified</span> German Import
+                </span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface font-label-sm text-label-sm">Grade 4.5A</span>
+</div>
+<div class="absolute top-3 right-3 flex items-center gap-1.5">
+<button aria-label="Favorite vehicle" class="w-8 h-8 rounded-full bg-surface-dim/80 backdrop-blur-md text-on-surface hover:text-error transition-colors flex items-center justify-center favorite-btn">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="absolute bottom-3 left-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm bg-surface-dim/80 backdrop-blur-md px-2.5 py-1 rounded-md">
+<span class="material-symbols-outlined text-primary text-[14px]">pin_drop</span>
+<span>Model Town, Sialkot</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div>
+<div class="flex items-baseline justify-between mb-1">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-semibold">2020 S-Line</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">PKR 2.10 Cr</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-semibold group-hover:text-primary transition-colors line-clamp-1">
+                  Audi A6 S-Line 2.0 TFSI
+                </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Matrix LED, Bang &amp; Olufsen 3D Sound, Valcona Leather</p>
+</div>
+<div class="grid grid-cols-3 gap-1 py-space-xs px-space-sm rounded-xl bg-surface-container font-body-sm text-body-sm text-on-surface">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Mileage</span>
+<span class="font-medium">42,000 km</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Fuel</span>
+<span class="font-medium">Turbo Petrol</span>
+</div>
+<div class="flex flex-col border-l border-surface-variant/20 pl-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Trans</span>
+<span class="font-medium">S-Tronic 7</span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs pt-1">
+<label class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface cursor-pointer">
+<input class="accent-primary rounded" type="checkbox"/> Compare
+                </label>
+<div class="flex items-center gap-1.5">
+<a class="w-9 h-9 rounded-lg bg-tertiary text-on-tertiary flex items-center justify-center hover:opacity-90 transition-all" href="https://wa.me/923008612345" target="_blank" title="Instant WhatsApp">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+<button class="px-3.5 py-1.5 rounded-lg bg-primary-container hover:bg-primary text-on-primary-container font-label-md text-label-md font-semibold transition-all">
+                    Details
+                  </button>
+</div>
+</div>
+</div>
+</article>
+</div>
+<!-- NUMBERED PAGINATION BAR -->
+<nav aria-label="Pagination" class="w-full flex flex-col sm:flex-row items-center justify-between gap-space-md p-space-md rounded-2xl bg-surface-container-low mt-space-sm">
+<div class="font-body-sm text-body-sm text-on-surface-variant">
+            Showing <span class="text-on-surface font-semibold">1 - 9</span> of <span class="text-on-surface font-semibold">1,524</span> Cars in Sialkot
+          </div>
+<div class="flex items-center gap-1.5">
+<button class="h-10 px-3 rounded-lg bg-surface-container text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors font-label-md text-label-md flex items-center gap-1 disabled:opacity-40" disabled="">
+<span class="material-symbols-outlined text-[16px]">chevron_left</span> Previous
+            </button>
+<button class="h-10 w-10 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md font-bold">1</button>
+<button class="h-10 w-10 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-label-md text-label-md transition-colors">2</button>
+<button class="h-10 w-10 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-label-md text-label-md transition-colors">3</button>
+<button class="h-10 w-10 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-label-md text-label-md transition-colors hidden md:inline-flex items-center justify-center">4</button>
+<span class="text-on-surface-variant px-1 font-body-md text-body-md">...</span>
+<button class="h-10 w-10 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high font-label-md text-label-md transition-colors">127</button>
+<button class="h-10 px-3 rounded-lg bg-surface-container text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors font-label-md text-label-md flex items-center gap-1">
+              Next <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</nav>
+<!-- SIALKOT REGIONAL ADVISORY & INSPECTION BANNER -->
+<div class="w-full bg-gradient-to-r from-surface-container-high via-surface-container to-surface-container-low rounded-2xl p-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md shadow-lg">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[28px]">verified_user</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Looking for On-Site Biometric or Digital Inspection?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Our certified inspectors visit any location in Sialkot, Daska, and Sambrial within 3 hours.</p>
+</div>
+</div>
+<a class="px-space-md py-space-sm rounded-xl bg-surface-container-highest hover:bg-surface-bright text-on-surface font-label-md text-label-md flex items-center gap-2 whitespace-nowrap transition-all shadow" href="#">
+<span class="material-symbols-outlined text-primary text-[18px]">history_edu</span> Book 210-Point Inspection
+          </a>
+</div>
+</main>
+</div>
+</section>
+<!-- SCRIPT FOR DYNAMIC CLIENT MICRO-INTERACTIONS -->
+<script>
+    // Live Price Slider feedback
+    const priceSlider = document.getElementById('priceSlider');
+    const priceDisplay = document.getElementById('priceDisplay');
+    if (priceSlider && priceDisplay) {
+      priceSlider.addEventListener('input', (e) => {
+        const val = e.target.value;
+        if (val < 100) {
+          priceDisplay.textContent = `Under PKR ${val} Lac`;
+        } else {
+          const cr = (val / 100).toFixed(2);
+          priceDisplay.textContent = `PKR ${cr} Crore`;
+        }
+      });
+    }
+
+    // Favorite heart toggle micro-interaction
+    const favButtons = document.querySelectorAll('.favorite-btn');
+    favButtons.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const icon = btn.querySelector('.material-symbols-outlined');
+        if (btn.classList.contains('text-error')) {
+          btn.classList.remove('text-error');
+          icon.style.fontVariationSettings = "'FILL' 0";
+        } else {
+          btn.classList.add('text-error');
+          icon.style.fontVariationSettings = "'FILL' 1";
+        }
+      });
+    });
+
+    // Reset filters trigger
+    const resetFiltersTop = document.getElementById('resetFiltersTop');
+    const clearAllPills = document.getElementById('clearAllPills');
+    const searchInput = document.getElementById('searchInput');
+
+    function resetForm() {
+      if (searchInput) searchInput.value = '';
+      if (priceSlider) priceSlider.value = 155;
+      if (priceDisplay) priceDisplay.textContent = 'PKR 40L - 1.55 Cr';
+    }
+
+    if (resetFiltersTop) resetFiltersTop.addEventListener('click', resetForm);
+    if (clearAllPills) clearAllPills.addEventListener('click', resetForm);
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest text-on-surface-variant mt-auto"><div class="w-full px-margin-mobile lg:px-margin pt-space-xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter pb-space-xl"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Sialkot Motors Emblem Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UqqMVSyFuymjIAA8eV3VSpVWTFjTZpEhvjuqlZ6x8gM1cIrut9GkDYJAhdPA07Wd-GCpMcr-Y1wRfu8HhRsUV1Azh2uHAXdkbsFTvQ67chYcZXDwrySMuvspfwA55PRkt4YEvXuKtt1q7-QBzqSFjuKy23kaYtyiImmANiQj6BLtDDK2_P0uzOlUYE9zyXCKrpNmbuIYRaOimNjaVmjyJXXzlJlci87JcA3topCeVbHMshDagL3Vqheg"/><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface uppercase">Sialkot<span class="text-primary"> Motors</span></span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Your trusted destination for buying and selling cars in Sialkot and Punjab. Certified Japanese and European imports with verified auction records.</p><div class="flex items-center gap-space-sm pt-space-xs"><span class="inline-flex items-center gap-1.5 px-space-md py-1 rounded-full bg-surface-container-high text-tertiary font-label-md text-label-md"><span class="material-symbols-outlined text-[16px]">verified</span>Verified Dealer Hub</span><span class="inline-flex items-center gap-1.5 px-space-md py-1 rounded-full bg-surface-container-high text-primary font-label-md text-label-md"><span class="material-symbols-outlined text-[16px]">shield_with_heart</span>Biometric Verified</span></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface">Quick Links</h3><ul class="flex flex-col gap-space-xs font-body-md text-body-md"><li><a class="hover:text-primary transition-colors" data-path="buy" href="#">Buy Cars</a></li><li><a class="hover:text-primary transition-colors" data-path="sell" href="#">Sell Your Car</a></li><li><a class="hover:text-primary transition-colors" data-path="featured-cars" href="#">Featured Cars</a></li><li><a class="hover:text-primary transition-colors" data-path="compare" href="#">Compare Inventory</a></li><li><a class="hover:text-primary transition-colors" data-path="about" href="#">About Us</a></li><li><a class="hover:text-primary transition-colors" data-path="contact" href="#">Contact</a></li>
+<li><a class="hover:text-primary transition-colors flex items-center gap-1" href="https://github.com/Marid-web-coder/marid" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li></ul></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface">Popular Makes</h3><ul class="flex flex-col gap-space-xs font-body-md text-body-md"><li><a class="hover:text-primary transition-colors" data-path="buy" href="#">Toyota</a></li><li><a class="hover:text-primary transition-colors" data-path="buy" href="#">Honda</a></li><li><a class="hover:text-primary transition-colors" data-path="buy" href="#">Suzuki</a></li><li><a class="hover:text-primary transition-colors" data-path="buy" href="#">Kia</a></li><li><a class="hover:text-primary transition-colors" data-path="buy" href="#">Hyundai</a></li><li><a class="hover:text-primary transition-colors" data-path="buy" href="#">Audi</a></li></ul></div><div class="lg:col-span-4 flex flex-col gap-space-sm"><h3 class="font-headline-sm text-headline-sm text-on-surface">Sialkot Headquarters</h3><div class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant"><div class="flex items-start gap-space-sm"><span class="material-symbols-outlined text-primary text-[20px] mt-0.5">location_on</span><span>Kashmir Road / Paris Road, Sialkot, Punjab, Pakistan</span></div><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[20px]">call</span><span>+92 52 429 8800</span></div><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-tertiary text-[20px]">chat</span><a class="text-tertiary hover:underline font-label-md text-label-md" href="https://wa.me/923008612345" rel="noopener noreferrer" target="_blank">WhatsApp: +92 300 8612345</a></div></div><div class="flex items-center gap-space-sm pt-space-sm"><a aria-label="GitHub Repository" class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-bright transition-all" href="https://github.com/Marid-web-coder/marid" target="_blank" rel="noopener noreferrer" title="GitHub Repository"><svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg></a>
+<a aria-label="Facebook Community" class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-bright transition-all" href="#"><span class="material-symbols-outlined text-[20px]">public</span></a><a aria-label="Instagram Gallery" class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-bright transition-all" href="#"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a><a aria-label="YouTube Showroom Channel" class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-bright transition-all" href="#"><span class="material-symbols-outlined text-[20px]">smart_display</span></a><a aria-label="WhatsApp Direct Connect" class="w-10 h-10 rounded-lg bg-tertiary text-on-tertiary flex items-center justify-center hover:opacity-90 transition-all" href="https://wa.me/923008612345"><span class="material-symbols-outlined text-[20px]">chat</span></a></div></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant/80"><p>© 2026 Sialkot Motors. All rights reserved.</p><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" data-path="about" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" data-path="about" href="#">Terms of Service</a><a class="hover:text-on-surface transition-colors" data-path="contact" href="#">Dealer Verification</a></div></div></div></footer></body></html>
